@@ -15,7 +15,9 @@ Then, did case-folding and built an index.
 Example queries:
 
 joseph conrad
+
 joseph conrad heart darkness
+
 mark twain quixote
 
 -----------------------------
@@ -26,7 +28,9 @@ Built a positional index to support phrase queries. We use quotes in a query to 
 Example queries:
 
 "joseph conrad"
+
 "joseph conrad" "heart of darkness"
+
 "mark twain" quixote
 
 -----------------------------
@@ -38,7 +42,9 @@ Finally, built either a k-gram index index to support wild-card queries.
 Example queries:
 
 *rk twain
+
 quixo*
+
 joseph co*d
 
 
